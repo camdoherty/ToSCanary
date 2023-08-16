@@ -1,11 +1,70 @@
-h1 {
-    color: green;
-    text-align: center;
+* {
+    box-sizing: border-box;
 }
 
-p {
+body {
     font-family: Arial, sans-serif;
-    font-size: 18px;
 }
 
-/* Add more CSS rules here */
+header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    color: #fff;
+    display: block;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+main {
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.platforms h2,
+.gpt4-api h2 {
+    margin-top: 0;
+}
+
+.platforms .platform {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.platforms .platform:last-child {
+    border-bottom: none;
+}
+
+.platforms .platform h3 {
+    margin-top: 0;
+}
+
+.platforms .platform .date {
+    font-style: italic;
+}
+
+.platforms .platform .summary p:last-child {
+    margin-bottom: 0;
+}
+
