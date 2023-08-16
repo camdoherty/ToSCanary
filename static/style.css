@@ -8,7 +8,7 @@ body {
 
 header {
     background-color: #333;
-    color: #fff;
+    color: #39CCCC;
     display: flex;
     justify-content: space-between;
     padding: 20px;
@@ -28,7 +28,7 @@ nav li {
 }
 
 nav a {
-    color: #fff;
+    color: #39CCCC;
     display: block;
     padding: 10px;
 }
