@@ -80,3 +80,10 @@ header h1 #logo {
     height: 100px;  
     margin-right: 10px;
 }
+
+#tagline {
+    display: block;  /* This will make it appear on a new line */
+    font-size: 14px; /* Adjust size as needed */
+    font-style: italic; /* Optional: for a slightly different visual effect */
+    margin-top: 5px; /* Space it a bit from the main title */
+}
