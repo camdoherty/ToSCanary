@@ -14,10 +14,6 @@ header {
     padding: 20px;
 }
 
-header h1 {
-    margin: 0;
-}
-
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -72,4 +68,16 @@ main {
     height: 50px;  /* Adjust this value to your desired logo size */
     margin-left: 10px;
     vertical-align: middle;
+}
+
+
+header h1 {
+    display: flex;
+    align-items: center;
+}
+
+header h1 #logo {
+    margin: 0
+    height: 50px;  
+    margin-right: 10px;
 }
