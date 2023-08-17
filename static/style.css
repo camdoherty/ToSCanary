@@ -34,8 +34,7 @@ nav a:hover {
 }
 
 main {
-    margin: 20px auto;
-    max-width: 800px;
+    margin: 20px 0;  /* This gives vertical margin but leaves the horizontal as 0 */
 }
 
 .platforms h2,
@@ -82,8 +81,12 @@ header h1 #logo {
 }
 
 #tagline {
-    display: block;  /* This will make it appear on a new line */
     font-size: 14px; /* Adjust size as needed */
     font-style: italic; /* Optional: for a slightly different visual effect */
     margin-top: 5px; /* Space it a bit from the main title */
+}
+
+#header-top {
+    display: flex;
+    align-items: center;
 }
