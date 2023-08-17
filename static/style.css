@@ -28,7 +28,7 @@ nav li {
 }
 
 nav a {
-    color: #39CCCC;
+    color: #FFF;
     display: block;
     padding: 10px;
 }
@@ -66,4 +66,10 @@ main {
 
 .platforms .platform .summary p:last-child {
     margin-bottom: 0;
+}
+
+#logo {
+    height: 50px;  /* Adjust this value to your desired logo size */
+    margin-left: 10px;
+    vertical-align: middle;
 }
