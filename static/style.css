@@ -9,9 +9,25 @@ body {
 header {
     background-color: #333;
     color: #FFF;
-    display: flex;
-    justify-content: space-between;
     padding: 20px;
+}
+
+#header-top {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+header h1 {
+    margin: 0 0 10px 0; /* Added bottom margin to space it from the tagline */
+    display: flex;
+    align-items: center;
+}
+
+#tagline {
+    font-size: 14px;
+    font-style: italic;
+    margin: 0; /* Reset the margin to 0 to keep it consistent */
 }
 
 nav ul {
@@ -69,24 +85,7 @@ main {
     vertical-align: middle;
 }
 
-header h1 {
-    margin: 0;
-    display: flex;
-    align-items: center;
-}
-
 header h1 #logo {
     height: 100px;  
     margin-right: 10px;
-}
-
-#tagline {
-    font-size: 14px; /* Adjust size as needed */
-    font-style: italic; /* Optional: for a slightly different visual effect */
-    margin-top: 5px; /* Space it a bit from the main title */
-}
-
-#header-top {
-    display: flex;
-    align-items: center;
 }
