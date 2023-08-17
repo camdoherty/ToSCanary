@@ -14,12 +14,13 @@ header {
 
 #header-top {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    flex-direction: row; /* Adjusted from column to row */
+    align-items: center;
+    justify-content: space-between; /* Spread content across the space */
 }
 
 header h1 {
-    margin: 0 0 10px 0; /* Added bottom margin to space it from the tagline */
+    margin: 0;
     display: flex;
     align-items: center;
 }
@@ -27,7 +28,8 @@ header h1 {
 #tagline {
     font-size: 14px;
     font-style: italic;
-    margin: 0; /* Reset the margin to 0 to keep it consistent */
+    margin: 10px 0 0 0; /* Added top margin to space it from the main title */
+    display: block; /* Ensure it takes the full width */
 }
 
 nav ul {
