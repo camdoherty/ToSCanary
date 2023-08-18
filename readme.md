@@ -1,3 +1,12 @@
 # ToSCanary
 
-ToSCanary is a website that monitors popular online platforms' terms of services for changes. It displays the date of the most recent changes and the differences between the old and new versions. It also uses gpt4's API to summarize the terms of services in easy-to-understand terms, highlight potential privacy or data usage concerns, and rank each platform on a scale of 1-10 for privacy and other data usage factors.
+A website that monitors online platforms' Terms of Service agreements for changes, uses chatGPT's API to summarize them (as well as areas of possible concern), and provides a privacy / data usage rating out of 10.
+
+For research and tech demonstration purposes.
+
+# ToDo
+
+Config
+- scrapper
+- SQLite DB
+- API
