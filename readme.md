@@ -4,6 +4,8 @@ A website that monitors online platforms' Terms of Service agreements for change
 
 For research and tech demonstration purposes.
 
+![screenshot](./toscanary.png)
+
 # ToDo
 - scraper
 - SQLite DB
